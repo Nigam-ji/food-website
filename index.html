@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delicious Food</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Delicious Food</h1>
+        </div><br><br>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#submit">Submit Recipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Delicious Food!</h2>
+        <p>Your go-to platform for tasty recipes and culinary inspiration. Share and discover delicious recipes from around the world!</p>
+        <div class="food-images">
+            <img src="https://www.sipandfeast.com/wp-content/uploads/2022/09/spaghetti-carbonara-recipe-snippet.jpg" alt="Spaghetti Carbonara" alt="Spaghetti Carbonara">
+            <img src="https://veenaazmanov.com/wp-content/uploads/2012/12/Easy-Chicken-Curry-Recipe-with-6-ingredients1.jpg" alt="Chicken Curry" alt="Chicken Curry">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2612613d-49ce-41c1-b851-4443393e7ee4/dghz2a7-92fd5b25-2822-4ede-9d3a-37c7fe149bd0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2MTI2MTNkLTQ5Y2UtNDFjMS1iODUxLTQ0NDMzOTNlN2VlNFwvZGdoejJhNy05MmZkNWIyNS0yODIyLTRlZGUtOWQzYS0zN2M3ZmUxNDliZDAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eSGpt6_1J3nuqZ4uwQvGvH0mM95jY8_iJSALBLJxJVQ" alt="Chocolate Cake">
+        </div>
+    </section>
+
+    <!-- Recipe Gallery Section -->
+    <section id="recipes">
+        <h2>Featured Recipes</h2>
+        <div class="recipe-card">
+            <img src="https://www.sipandfeast.com/wp-content/uploads/2022/09/spaghetti-carbonara-recipe-snippet.jpg" alt="Spaghetti Carbonara">
+            <h3>Spaghetti Carbonara</h3>
+            <p>Classic Italian pasta made with eggs, cheese, pancetta, and pepper.</p>
+        </div>
+        <div class="recipe-card">
+            <img src="https://veenaazmanov.com/wp-content/uploads/2012/12/Easy-Chicken-Curry-Recipe-with-6-ingredients1.jpg" alt="Chicken Curry">
+            <h3>Chicken Curry</h3>
+            <p>Spicy, savory chicken in a rich, flavorful curry sauce.</p>
+        </div>
+        <div class="recipe-card">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2612613d-49ce-41c1-b851-4443393e7ee4/dghz2a7-92fd5b25-2822-4ede-9d3a-37c7fe149bd0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2MTI2MTNkLTQ5Y2UtNDFjMS1iODUxLTQ0NDMzOTNlN2VlNFwvZGdoejJhNy05MmZkNWIyNS0yODIyLTRlZGUtOWQzYS0zN2M3ZmUxNDliZDAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eSGpt6_1J3nuqZ4uwQvGvH0mM95jY8_iJSALBLJxJVQ" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>Delicious, moist chocolate cake with rich frosting.</p>
+        </div>
+    </section>
+
+    <!-- Submit Recipe Section -->
+    <section id="submit">
+        <h2>Submit Your Recipe</h2>
+        <form id="recipe-form">
+            <label for="recipe-name">Recipe Name:</label>
+            <input type="text" id="recipe-name" required>
+
+            <label for="recipe-ingredients">Ingredients:</label>
+            <textarea id="recipe-ingredients" rows="4" required></textarea>
+
+            <label for="recipe-instructions">Instructions:</label>
+            <textarea id="recipe-instructions" rows="6" required></textarea>
+
+            <button type="submit">Submit Recipe</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to get in touch with us.</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Delicious Food. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
