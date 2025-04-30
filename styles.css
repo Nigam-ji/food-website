@@ -1,0 +1,185 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightpink;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: rgb(133, 133, 40);
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 40px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+#home h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.food-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food-images img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Recipe Gallery Section */
+#recipes {
+    text-align: center;
+    padding: 40px;
+}
+
+.recipe-card {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.recipe-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recipe-card p {
+    font-size: 16px;
+}
+
+/* Submit Recipe Section */
+#submit {
+    padding: 40px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+#submit form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#submit form input,
+#submit form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit form button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit form button:hover {
+    background-color: #4cae4c;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact form button {
+    background-color: #5bc0de;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #31b0d5;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
