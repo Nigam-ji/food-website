@@ -229,7 +229,7 @@ footer {
 }
 
 /* Hide nav menu by default on small screens */
-@media (max-width: 450px) {
+@media (max-width: 250px) {
     .hamburger {
         display: block;
     }
